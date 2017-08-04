@@ -1,0 +1,154 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   LICENSE
+#	new file:   README.md
+#	new file:   data/demo/000022.png
+#	new file:   data/demo/000188.png
+#	new file:   data/demo/000456.jpg
+#	new file:   data/demo/000542.jpg
+#	new file:   data/demo/001150.jpg
+#	new file:   data/demo/001763.jpg
+#	new file:   data/demo/004545.jpg
+#	new file:   demo.py
+#	new file:   experiments/cfgs/faster_rcnn_end2end.yml
+#	new file:   experiments/cfgs/faster_rcnn_end2end_pva.yml
+#	new file:   experiments/cfgs/faster_rcnn_end2end_resnet.yml
+#	new file:   experiments/cfgs/faster_rcnn_kitti.yml
+#	new file:   experiments/profiling/gprof2dot.py
+#	new file:   experiments/profiling/profile.png
+#	new file:   experiments/profiling/run_profiling.sh
+#	new file:   experiments/scripts/faster_rcnn_end2end.sh
+#	new file:   experiments/scripts/faster_rcnn_kitti.sh
+#	new file:   experiments/scripts/faster_rcnn_voc.sh
+#	new file:   experiments/scripts/faster_rcnn_voc_pva.sh
+#	new file:   experiments/scripts/faster_rcnn_voc_resnet.sh
+#	new file:   experiments/scripts/kitti2pascalvoc.py
+#	new file:   faster_rcnn/__init__.py
+#	new file:   faster_rcnn/demo.py
+#	new file:   faster_rcnn/test_net.py
+#	new file:   faster_rcnn/train_net.py
+#	new file:   lib/Makefile
+#	new file:   lib/__init__.py
+#	new file:   lib/datasets/__init__.py
+#	new file:   lib/datasets/coco.py
+#	new file:   lib/datasets/ds_utils.py
+#	new file:   lib/datasets/factory.py
+#	new file:   lib/datasets/imagenet3d.py
+#	new file:   lib/datasets/imdb.py
+#	new file:   lib/datasets/imdb2.py
+#	new file:   lib/datasets/kitti.py
+#	new file:   lib/datasets/kitti_tracking.py
+#	new file:   lib/datasets/kittivoc.py
+#	new file:   lib/datasets/nissan.py
+#	new file:   lib/datasets/nthu.py
+#	new file:   lib/datasets/pascal3d.py
+#	new file:   lib/datasets/pascal_voc.py
+#	new file:   lib/datasets/pascal_voc2.py
+#	new file:   lib/datasets/voc_eval.py
+#	new file:   lib/fast_rcnn/__init__.py
+#	new file:   lib/fast_rcnn/bbox_transform.py
+#	new file:   lib/fast_rcnn/config.py
+#	new file:   lib/fast_rcnn/config2.py
+#	new file:   lib/fast_rcnn/nms_wrapper.py
+#	new file:   lib/fast_rcnn/test.py
+#	new file:   lib/fast_rcnn/train.py
+#	new file:   lib/gt_data_layer/__init__.py
+#	new file:   lib/gt_data_layer/layer.py
+#	new file:   lib/gt_data_layer/minibatch.py
+#	new file:   lib/gt_data_layer/roidb.py
+#	new file:   lib/make.sh
+#	new file:   lib/networks/.VGGnet.py.swo
+#	new file:   lib/networks/PVAnet_test.py
+#	new file:   lib/networks/PVAnet_train.py
+#	new file:   lib/networks/Resnet101_test.py
+#	new file:   lib/networks/Resnet101_train.py
+#	new file:   lib/networks/Resnet50_test.py
+#	new file:   lib/networks/Resnet50_train.py
+#	new file:   lib/networks/VGGnet_test.py
+#	new file:   lib/networks/VGGnet_testold.py
+#	new file:   lib/networks/VGGnet_train.py
+#	new file:   lib/networks/__init__.py
+#	new file:   lib/networks/caffenet.py
+#	new file:   lib/networks/factory.py
+#	new file:   lib/networks/network.py
+#	new file:   lib/nms/.gitignore
+#	new file:   lib/nms/__init__.py
+#	new file:   lib/nms/cpu_nms.pyx
+#	new file:   lib/nms/gpu_nms.hpp
+#	new file:   lib/nms/gpu_nms.pyx
+#	new file:   lib/nms/nms_kernel.cu
+#	new file:   lib/nms/py_cpu_nms.py
+#	new file:   lib/psroi_pooling_layer/__init__.py
+#	new file:   lib/psroi_pooling_layer/cuda_kernel_helper.h
+#	new file:   lib/psroi_pooling_layer/psroi_pooling_op.cc
+#	new file:   lib/psroi_pooling_layer/psroi_pooling_op.py
+#	new file:   lib/psroi_pooling_layer/psroi_pooling_op_gpu.cu.cc
+#	new file:   lib/psroi_pooling_layer/psroi_pooling_op_gpu.h
+#	new file:   lib/psroi_pooling_layer/psroi_pooling_op_grad.py
+#	new file:   lib/psroi_pooling_layer/psroi_pooling_op_test.py
+#	new file:   lib/pycocotools/UPSTREAM_REV
+#	new file:   lib/pycocotools/__init__.py
+#	new file:   lib/pycocotools/_mask.c
+#	new file:   lib/pycocotools/_mask.pyx
+#	new file:   lib/pycocotools/coco.py
+#	new file:   lib/pycocotools/cocoeval.py
+#	new file:   lib/pycocotools/license.txt
+#	new file:   lib/pycocotools/mask.py
+#	new file:   lib/pycocotools/maskApi.c
+#	new file:   lib/pycocotools/maskApi.h
+#	new file:   lib/roi_data_layer/__init__.py
+#	new file:   lib/roi_data_layer/layer.py
+#	new file:   lib/roi_data_layer/minibatch.py
+#	new file:   lib/roi_data_layer/minibatch2.py
+#	new file:   lib/roi_data_layer/roidb.py
+#	new file:   lib/roi_data_layer/roidb2.py
+#	new file:   lib/roi_pooling_layer/__init__.py
+#	new file:   lib/roi_pooling_layer/roi_pooling_op.cc
+#	new file:   lib/roi_pooling_layer/roi_pooling_op.py
+#	new file:   lib/roi_pooling_layer/roi_pooling_op_gpu.cu.cc
+#	new file:   lib/roi_pooling_layer/roi_pooling_op_gpu.h
+#	new file:   lib/roi_pooling_layer/roi_pooling_op_grad.py
+#	new file:   lib/roi_pooling_layer/roi_pooling_op_test.py
+#	new file:   lib/rpn_msr/__init__.py
+#	new file:   lib/rpn_msr/anchor_target_layer.py
+#	new file:   lib/rpn_msr/anchor_target_layer_tf.py
+#	new file:   lib/rpn_msr/generate.py
+#	new file:   lib/rpn_msr/generate_anchors.py
+#	new file:   lib/rpn_msr/proposal_layer.py
+#	new file:   lib/rpn_msr/proposal_layer_tf.py
+#	new file:   lib/rpn_msr/proposal_target_layer_tf.py
+#	new file:   lib/setup.py
+#	new file:   lib/utils/.gitignore
+#	new file:   lib/utils/__init__.py
+#	new file:   lib/utils/bbox.pyx
+#	new file:   lib/utils/blob.py
+#	new file:   lib/utils/boxes_grid.py
+#	new file:   lib/utils/nms.py
+#	new file:   lib/utils/nms.pyx
+#	new file:   lib/utils/timer.py
+#sdfsadasd adas
+as 
+
+ d
+ sa 
+ das
+  d
+  a
+
+   a
+   das 
+
+
+   d
+    d
+    ada
+
+sdasdasd
+
