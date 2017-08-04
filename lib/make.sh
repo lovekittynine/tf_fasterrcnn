@@ -14,9 +14,9 @@ g++ -std=c++11 -shared -D_GLIBCXX_USE_CXX11_ABI=0 -o roi_pooling.so roi_pooling_
 	roi_pooling_op.cu.o -I $TF_INC -fPIC -lcudart -L $CUDA_PATH/lib64
 
 # for gcc5-built tf
-g++ -std=c++11 -shared -D_GLIBCXX_USE_CXX11_ABI=1 -o roi_pooling.so roi_pooling_op.cc \
+#g++ -std=c++11 -shared -D_GLIBCXX_USE_CXX11_ABI=1 -o roi_pooling.so roi_pooling_op.cc \
 	roi_pooling_op.cu.o -I $TF_INC -fPIC -lcudart -L $CUDA_PATH/lib64
-cd ..
+#cd ..
 
 
 # add building psroi_pooling layer
